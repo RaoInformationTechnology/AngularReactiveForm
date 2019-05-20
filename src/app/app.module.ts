@@ -7,6 +7,7 @@ import { RouterModule, Routes } from '@angular/router';
 import {CrudService} from './crud.service';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import {config} from './config';
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent }
 

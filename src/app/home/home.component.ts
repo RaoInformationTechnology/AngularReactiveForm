@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 import {CrudService} from '../crud.service';
+import  {config} from '../config';
+
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
